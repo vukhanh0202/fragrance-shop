@@ -1,0 +1,159 @@
+.header {
+     color: #767676!important;
+     font-size: 16px;
+ }
+
+.header ul {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 5px 0px;
+}
+
+.header .container ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+}
+
+.header .container ul li:first-child {
+    border-right: 1px solid #e1e1e1;
+}
+.header .container ul a {
+    color: #767676!important;
+    text-decoration: none;
+}
+.header .container ul li a:hover {
+    color: #E32124!important;
+    cursor: pointer;
+}
+
+/* ------- */
+.navbar {
+    top: 0;
+    padding: 0 !important;
+    box-shadow: 0px 5px 10px 0px rgba(84,84,84,0.15);
+    z-index: 1000000;
+    margin-bottom: 25px;
+}
+
+.navbar .navbar-nav {
+    height: 100%;
+}
+.navbar .nav-item {
+    position: relative;
+}
+.navbar .nav-item:hover .sub-submenu {
+    display: block;
+}
+.sub-submenu{
+    display: none;
+    position: absolute;
+    left: 0%;
+
+    width: 200px;
+    background-color: #333;
+    border-color: #3f3f3f;
+    border-top: 2px solid #E32124;
+    color: #999;
+    padding: 0px;
+}
+.sub-submenu li{
+    list-style-type: none;
+    font-size: 14px;
+    display: block;
+    font-weight: 700;
+    line-height: 3;
+    padding: 5px;
+    padding-left: 13px;
+    position: relative;
+}
+.sub-submenu > li:hover{
+    background-color: #212529;
+    cursor: pointer;
+    padding-left: 20px;
+}
+.navbar .navbar-branch {
+    padding: 0px 8px;
+}
+
+.navbar .border-header {
+    margin: 0px 50px !important;
+    margin-left: 30px !important;
+}
+
+.navbar li a {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    padding: 0px 16px !important;
+}
+
+.navbar li a:hover {
+    color: #E32124 !important;
+}
+
+.navbar div > a {
+    font-size: 1.3em;
+    font-weight: 300 !important;
+    padding: 0px 16px !important;
+
+}
+.navbar div a:hover {
+    color: #E32124 !important;
+    cursor: pointer;
+}
+/* Responsive header navbar*/
+
+@media (min-width: 765px) {
+    .navbar .nav-link{
+        font-size: 0.8rem!important;
+    }
+}
+@media (min-width: 852px) {
+    .navbar .nav-link{
+        font-size: 1rem!important;
+    }
+}
+@media (min-width: 945px) {
+    .navbar .nav-link{
+        font-size: 1.1rem!important;
+    }
+}
+@media (min-width: 1000px) and (max-width: 1140px) {
+    .navbar .nav-link{
+        font-size: 1.2rem!important;
+    }
+}
+@media (min-width: 1140px) and (max-width: 1280px) {
+    .navbar .nav-link{
+        font-size: 1.3rem!important;
+    }
+}
+
+/* MD */
+
+/* LG */
+@media (min-width: 1280px) {
+    .navbar .nav-link{
+        font-size: 1.3rem!important;
+    }
+}
+
+.page-link{
+    position: relative;
+    display: block;
+    padding: .5rem 1rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #212529!important;
+    font-size: 20px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+.page-item.active .page-link{
+    color: #fff!important;
+}
+.page-link:hover{
+    color: #fff!important;
+}

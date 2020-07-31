@@ -1,0 +1,78 @@
+
+.payment-page .required {
+    color: red;
+    font-weight: 700;
+    border: 0 !important;
+    text-decoration: none !important;
+}
+
+.payment-page .text-area {
+    height: 100%;
+    width: 100%;
+}
+
+.payment-page #payment-wrap {
+    position: relative;
+    background: #ebe9eb;
+    border-radius: 5px;
+}
+
+.payment-page .payment {
+    text-align: left;
+    padding: 1em;
+    border-bottom: 1px solid #d3ced2;
+    margin: 0;
+    list-style: none outside;
+}
+
+.payment-page .payment_box {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em;
+    margin: 1em 0;
+    font-size: .92em;
+    border-radius: 2px;
+    line-height: 0.1;
+    background-color: #dfdcde;
+    color: #515151;
+}
+
+.payment-page .btn-custom {
+    text-decoration: none;
+}
+@media only screen and (min-width: 0px) {
+    .payment-page .btn-custom {
+        margin: 10px 0;
+        margin-left: 72%;
+    }
+}
+@media only screen and (min-width: 576px) {
+    .payment-page .btn-custom {
+        margin: 10px 0;
+        margin-left: 75%;
+    }
+}
+
+@media only screen and (min-width: 786px) {
+    .payment-page .btn-custom {
+        margin: 10px 0;
+        margin-left: 82%;
+    }
+}
+@media only screen and (min-width: 922px) {
+    .payment-page .btn-custom {
+        margin: 10px 0;
+        margin-left: 86%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .payment-page .btn-custom {
+        margin: 10px 0;
+        margin-left: 88%;
+    }
+}
+
+
+

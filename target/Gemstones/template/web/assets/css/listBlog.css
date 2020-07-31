@@ -1,0 +1,99 @@
+
+.content-blog .title-wrap{
+    text-align: center;
+}
+.content-blog .title-wrap h1{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.content-blog .title-wrap p{
+    text-transform: none;
+    color: #212529;
+}
+.content-blog .grid-view {
+    margin-top: 4rem;
+}
+.content-blog .grid-view .aside-blog input:focus{
+    border-color: #212529;
+}
+.content-blog .grid-view .aside-blog .btn-custom{
+    background-color: #212529;
+}
+
+
+.content-blog .grid-view .aside-blog #accordion{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.content-blog .grid-view .aside-blog #accordion .type{
+    border: none;
+    border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+}
+.content-blog .grid-view .aside-blog #accordion .type-header{
+    background: none;
+    border: none;
+}
+.content-blog .grid-view .aside-blog #accordion .type-body{
+    margin: 0;
+    padding-left: 1rem;
+    margin-top: -0.5rem;
+}
+.content-blog .grid-view .aside-blog #accordion a{
+    opacity: 0.8;
+    color: #212529;
+    text-decoration: none;
+}
+.content-blog .grid-view .aside-blog #accordion a:hover{
+    color: #212529;
+    cursor: pointer;
+    opacity: 1;
+
+}
+.content-blog .grid-view .view-blog .view-item:first-child {
+    margin-top: 0;
+}
+.content-blog .grid-view .view-blog .view-item {
+    border: 0.0625rem solid #cecece;
+    margin: 1rem 0;
+}
+.content-blog .grid-view .view-blog .view-item a{
+    color: #212529;
+    text-decoration: none;
+}
+.content-blog .grid-view .view-blog .view-item .item-content{
+    text-align: center;
+    padding: 1rem;
+}
+.content-blog .grid-view .view-blog .view-item .item-content h3{
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.content-blog .grid-view .view-blog .view-item .item-content span{
+    font-size: 0.8rem;
+}
+.content-blog .grid-view .view-blog .view-item .item-btn{
+    text-align: center;
+    margin: 1rem 0;
+}
+.content-blog .grid-view .view-blog .view-item .item-btn .btn{
+    background-color: none;
+    border-color: #212529;
+    color: #f1f1f1;
+    width: 100%;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 1.5rem;
+}
+.content-blog .grid-view .view-blog .view-item .item-btn .btn a{
+    color: #212529;
+    transition: all 0.001s linear;
+}
+.content-blog .grid-view .view-blog .view-item .item-btn .btn a:hover{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+

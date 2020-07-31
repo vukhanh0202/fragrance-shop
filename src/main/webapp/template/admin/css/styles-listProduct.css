@@ -1,0 +1,43 @@
+th,td,tr{
+    text-align: center;
+}
+.container-customer{
+    background-color: #e6e8ea;
+    padding-top: 50px;
+}
+.btn-null-background{
+    background-color: transparent;
+    text-decoration: none;
+    color: #637381;
+    margin: 10px 10px 10px 0px;
+}
+.btn-null-background:hover{
+    background-color: transparent;
+    text-decoration: none;
+    color: #1c2260;
+}
+
+.title-bar{
+    display: flex;
+    width: 100%;
+}
+.title-bar-heading{
+    width: 85%;
+    margin-left: 20px;
+}
+.title-bar-action{
+    width: 15%;
+    justify-content: center;
+}
+.content{
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+}
+.align-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px;
+}
